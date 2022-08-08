@@ -2,7 +2,6 @@
 const l = Number(prompt('Введіть довжину приміщення'));
 const w = Number(prompt('Введіть ширину приміщення'));
 const h = Number(prompt('Введіть висоту приміщення'));
-
 const volumeRoom = l * w * h;
 const paint = volumeRoom / 16;
 
@@ -11,6 +10,8 @@ if (l >= 1000 || w >= 1000 || h >= 1000) {
 } else {
     alert(`Вам потрібно ${paint} літрів фарби`);
 }
+
+
 
 //task 2
 const celsius  = prompt('Enter ℃');
