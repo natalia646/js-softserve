@@ -29,4 +29,4 @@ function calcDivide(){
     alert(fraction)
 }
 
-checkAction(enterNum[0], enterNum[1], enterNum[2], calcPlus, calcMinus, calcMultiply, calcDivide);
+checkAction(a, b, action, calcPlus, calcMinus, calcMultiply, calcDivide);
