@@ -1,9 +1,8 @@
 //calc
-
 const enterNum = prompt("Enter the numbers and the action separated by commas").split(",");
  const action = enterNum[2];
- const a = enterNum[0];
- const b = enterNum[1];
+ const a = +enterNum[0];
+ const b = +enterNum[1];
 
 function checkAction(a, b, action, plus, minus, multiply, divide){
     action == "+" ? plus():
@@ -14,16 +13,20 @@ function checkAction(a, b, action, plus, minus, multiply, divide){
 }
 
 function calcPlus(){
-    return a + b;
+    let sum =  a + b;
+    alert(sum)
 }
 function calcMinus(){
-    return a - b
+    let difference = a - b;
+    alert(difference)
 }
 function calcMultiply(){
-    return a * b
+   let product = a * b;
+   alert(product)
 }
 function calcDivide(){
-    return a / b
+    let fraction =  a / b;
+    alert(fraction)
 }
 
-alert(checkAction(enterNum[0], enterNum[1], enterNum[2], calcPlus, calcMinus, calcMultiply, calcDivide))
+checkAction(enterNum[0], enterNum[1], enterNum[2], calcPlus, calcMinus, calcMultiply, calcDivide);
