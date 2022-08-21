@@ -25,7 +25,7 @@
 
 
 // //task 3
-// const ticket = prompt('Enter your ticket number');
+// const ticket = prompt('Enter your ticket number').split('');
 // const first = +ticket[0] + +ticket[1] + +ticket[2];
 // const last = +ticket[3] + +ticket[4] + +ticket[5];
 
