@@ -33,10 +33,10 @@
 //     }
 // }
 
-function threeInOne(arr) {
-    let arrCopy = arr.slice();
-    let arrNew = [];
-    for (let i = 0; i< arrCopy.length; i+=3){
-        arrNew.push(arr[i] + arr[i+1] + arr[i+2]);
-    }
-}
+// function threeInOne(arr) {
+//     let arrCopy = arr.slice();
+//     let arrNew = [];
+//     for (let i = 0; i< arrCopy.length; i+=3){
+//         arrNew.push(arr[i] + arr[i+1] + arr[i+2]);
+//     }
+// }

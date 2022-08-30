@@ -1,32 +1,21 @@
-// //calc
-// const enterNum = prompt("Enter the numbers and the action separated by commas").split(",");
-//  const action = enterNum[2];
-//  const a = +enterNum[0];
-//  const b = +enterNum[1];
+//calc
+const enterNum = prompt("Enter the numbers and the action separated by commas").split(",");
+const action = enterNum[2];
+const a = +enterNum[0];
+const b = +enterNum[1];
 
-// function checkAction(a, b, action, plus, minus, multiply, divide){
-//     action == "+" ? plus():
-//     action == "-" ? minus():
-//     action == "*" ? multiply():
-//     action == "/" ? divide():
-//     null
-// }
+function checkAction(a, b, action, plus, minus, multiply, divide) {
+    action == "+" ? plus() :
+    action == "-" ? minus() :
+    action == "*" ? multiply() :
+    action == "/" ? divide() :
+    null
+}
 
-// function calcPlus(){
-//     let sum =  a + b;
-//     alert(sum)
-// }
-// function calcMinus(){
-//     let difference = a - b;
-//     alert(difference)
-// }
-// function calcMultiply(){
-//    let product = a * b;
-//    alert(product)
-// }
-// function calcDivide(){
-//     let fraction =  a / b;
-//     alert(fraction)
-// }
+const calcPlus = () => alert(a + b);
+const calcMinus = () => alert(a - b);
+const calcDivide = () => alert(a / b);
+const calcMultiply = () => alert(a * b);
 
-// checkAction(a, b, action, calcPlus, calcMinus, calcMultiply, calcDivide);
+checkAction(a, b, action, calcPlus, calcMinus, calcMultiply, calcDivide);
+
