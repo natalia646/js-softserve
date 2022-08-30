@@ -32,3 +32,16 @@
 // let alertMoney = theMostMoney(sortSand, sortBox);
 // alert(`You have ${alertMoney}$`)
 
+//task 3
+// function calcLetter(str) {
+//   const arrWord = str.split(" ");
+//   const arr = [];
+//   for (let i = 0; i < arrWord.length; i++) {
+//     const number = Number(`${arrWord[i].length}`);
+//     arr.push(number);
+//   }
+//   const arrSort = arr.sort()
+//   console.log(arr[0]);
+// }
+
+// calcLetter("Lets all go on holiday somewhere very cold");
